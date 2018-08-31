@@ -1,0 +1,38 @@
+.cost-label {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding: 0.5rem 2rem;
+}
+
+.cost-label-text {
+  display: grid;
+  grid-column: span 1;
+  font-size: 1.5rem;
+  line-height: 2;
+  padding: 1rem 0.5rem;
+  vertical-align: baseline;
+  color: grey;
+}
+
+.input {
+  font-size: 2rem;
+  line-height: 1;
+  vertical-align: baseline;
+  grid-column: span 1;
+  text-align: right;
+  padding: 1rem 0.5rem;
+  -moz-appearance: textfield;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    &,
+    &:hover,
+    &:focus,
+    &:active,
+    &:active:focus {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.header {
+  background: #0f0f0f;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.people,
+.cost {
+  padding: 1rem;
+  grid-column: 2 / span 1;
+  font-size: 2rem;
+  color: white;
+}
+
+.people {
+  font-size: 2rem;
+  grid-column: 1 / span 1;
+}
+
+.cost {
+  text-align: right;
+}
+
+.currency {
+  font-size: 0.5em;
+  vertical-align: top;
+}
+
+.amount {
+  vertical-align: bottom;
+}
+
+.peopleSelect {
+  background: transparent;
+  padding: 1rem;
+  margin: 1rem;
+  width: auto;
+  display: block;
+  font-size: 1rem;
+}
